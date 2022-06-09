@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="http://store-images.s-microsoft.com/image/apps.10042.13571498826857201.5421a24f-2295-4110-bdc5-0522ef164393.3895804a-ea2c-4ef7-ae9b-ff13dd9fb44c" alt="logo">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Madhosh Music</h1>
+            <div class="songItem" id="1">
+                <img src="https://telugu.samayam.com/photo/87329378/photo-87329378.jpg" alt="1">
+                <span>Sami Sami</span> 
+                <span><i class="fa-solid fa-circle-play"></i></span>
+            </div>
+            <div class="songItem" id="2">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202201/Samantha_Rs_5_crore_Oo_antava_1200x768.jpeg?sGu1FR8AV4tU_maTPbSPusT0NWyFFsCp&size=1200:675" alt="2">
+                <span>Oo Antava</span> 
+                <span><i class="fa-solid fa-circle-play"></i></span>
+            </div>
+            <div class="songItem" id="3">
+                <img src="https://i0.wp.com/www.mr-iatt.com/wp-content/uploads/2022/03/Malam-Pita-Pita-De-mp3-image.jpg?fit=720%2C720&ssl=1" alt="3">
+                <span>Arabic Kuthu</span> 
+                <span><i class="fa-solid fa-circle-play"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="play">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value = 0>
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="backward"></i>
+            <i class="fa-solid fa-circle-play" id = "masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="forward"></i>
+        </div>
+        <div class="songInfo" id="gif">
+            <img src="https://c.tenor.com/b3pZMIW1I-UAAAAC/audio-beat.gif" alt="playing">Playing
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<script src="https://kit.fontawesome.com/749e1f2547.js" crossorigin="anonymous"></script>
+</html>
